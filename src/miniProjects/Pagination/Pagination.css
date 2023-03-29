@@ -1,0 +1,19 @@
+.comments-page {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+  gap: 40px;
+  background-color: rgb(224, 255, 245);
+}
+.comments-page h2 {
+  color: rgb(76, 0, 84);
+}
+.comments-page .comments-container {
+  width: 95%;
+  min-height: 400px;
+  background-color: azure;
+}/*# sourceMappingURL=Pagination.css.map */

@@ -1,0 +1,78 @@
+.menu-section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(204, 204, 204);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    gap: 30px;
+
+    .category-container {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .cat-item {
+            font-size: 24px;
+            font-weight: 600;
+            border-radius: 10px;
+            padding: 10px 20px;
+            background-color: #fff;
+            cursor: pointer;
+            transition: .4s;
+
+            &:hover {
+                background-color: gold;
+            }
+            &.active {
+                background-color: gold;
+            }
+        }
+    }
+    .menu-container {
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 40px;
+        background-color: rgb(255, 248, 210);
+        border-radius: 20px;
+        padding: 40px 20px;
+
+        .FoodCard {
+            width: 100%;
+            min-height: 200px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            background-color: rgb(255, 255, 240);
+            padding: 10px;
+
+            img {
+                width: 180px;
+                border-radius: 10px;
+                object-fit: cover;
+            }
+            .detail {
+                display: flex;
+                justify-content: center;
+                align-items: space-between;
+                flex-direction: column;
+                text-align: center;
+                
+                .food-price {
+                    text-align: center;
+                }
+                .text {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

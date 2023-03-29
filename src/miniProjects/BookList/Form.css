@@ -1,0 +1,21 @@
+table {
+    margin-top: 50px;
+}
+
+thead {
+    background-color: blueviolet;
+    font-size: 24px;
+    color: #fff;
+}
+
+thead th {
+    text-align: center;
+}
+tbody tr:nth-child(even) {
+    background-color: khaki;
+}
+tbody tr td {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}

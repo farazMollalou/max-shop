@@ -1,0 +1,68 @@
+.comments-page {
+    width: 90vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    background-color: rgb(202, 202, 202);
+    padding: 30px 50px ;
+
+    h2 {
+        color: rgb(76, 0, 84);
+    } 
+    .table {
+        width: 70%;
+
+        thead {
+            tr {
+                th {
+                    background-color: blue;
+                    color: #fff;
+
+                    &:nth-child(2) {
+                        width: 100px;
+                    }
+                }
+            }
+        }
+        tr {
+            &:nth-child(odd) {
+                background-color: aliceblue;
+            }
+            td {
+                font-family: cursive;
+                font-weight: 300;
+                font-size: 16px;
+            }
+        }
+    }
+    .pages-number {
+        width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        .btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: none;
+            background-color: #ffee00;
+            color: #00a;
+            font-weight: 700;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            &.active-btn {
+                background-color: #00a;
+                color: #ffee00;
+            }
+        }
+    }
+}

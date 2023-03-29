@@ -1,0 +1,30 @@
+.btn-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    color: black;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background-color: gainsboro;
+    color: rgb(45, 45, 45);
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 0;
+    transition: .4s;
+}
+.change {
+    background-color: green;
+    transform: scale(1.3);
+    color: bisque;
+}
+.sm {
+    transform: scale(.7);
+}

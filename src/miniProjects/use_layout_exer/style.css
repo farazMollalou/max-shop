@@ -1,0 +1,8 @@
+.box {
+    background-color: gold;
+    font-size: 30px;
+    width: 200px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 50px;
+}

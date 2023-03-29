@@ -1,0 +1,45 @@
+.form-container {
+    color: black;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    gap: 30px;
+}
+.sign-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    background-color: rgb(87, 0, 174);
+    color: aliceblue;
+    padding: 20px 10px;
+    border-radius: 12px;
+    gap: 5px;
+}
+.sign-form input {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: 90%;
+    border-radius: 10px;
+    padding: 7px 10px;
+}
+.sign-form button {
+    width: 70%;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    padding: 5px;
+}
+.sign-form button:hover {
+    background-color: green;
+}
