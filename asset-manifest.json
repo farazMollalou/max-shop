@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/max-shop/static/css/main.3e8bb3a9.css",
-    "main.js": "/max-shop/static/js/main.343d16b9.js",
+    "main.js": "/max-shop/static/js/main.c2a33e0b.js",
     "static/media/BYekan-Bold.ttf": "/max-shop/static/media/BYekan-Bold.3e2154245604d626c3e0.ttf",
     "static/media/banner.png": "/max-shop/static/media/banner.a61c8c8279c8aca2b980.png",
     "static/media/banner2.png": "/max-shop/static/media/banner2.89c57fd3240fa0c77779.png",
@@ -10,10 +10,10 @@
     "static/media/Koodak.ttf": "/max-shop/static/media/Koodak.3ca5422b99df715c2f4d.ttf",
     "index.html": "/max-shop/index.html",
     "main.3e8bb3a9.css.map": "/max-shop/static/css/main.3e8bb3a9.css.map",
-    "main.343d16b9.js.map": "/max-shop/static/js/main.343d16b9.js.map"
+    "main.c2a33e0b.js.map": "/max-shop/static/js/main.c2a33e0b.js.map"
   },
   "entrypoints": [
     "static/css/main.3e8bb3a9.css",
-    "static/js/main.343d16b9.js"
+    "static/js/main.c2a33e0b.js"
   ]
 }
